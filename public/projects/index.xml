@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects on Elise Morgan&#39;s Technical Writing Portoflio</title>
+    <link>http://elisecmorgan.com/projects/</link>
+    <description>Recent content in Projects on Elise Morgan&#39;s Technical Writing Portoflio</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Elise Morgan</copyright>
+    <lastBuildDate>Wed, 19 Jul 2023 00:00:00 +0000</lastBuildDate><atom:link href="http://elisecmorgan.com/projects/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Salesforce User Guide</title>
+      <link>http://elisecmorgan.com/projects/salesforce-user-guide/</link>
+      <pubDate>Wed, 19 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://elisecmorgan.com/projects/salesforce-user-guide/</guid>
+      <description>I created this user guide following a designated style template and a request to show steps with screen captures. The intended audience of this guide is employees at a service business who are learning how to manage client records in Salesforce. Created in an intensive online Technical Writing course.
+View Salesforce User Guide</description>
+    </item>
+    
+  </channel>
+</rss>

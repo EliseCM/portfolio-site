@@ -1,0 +1,37 @@
+baseURL = 'http://elisecmorgan.com/'
+languageCode = 'en-us'
+title = "Elise Morgan's Technical Writing Portoflio"
+theme = "salinger"
+copyright = 'Elise Morgan'
+
+[params]
+author = "Elise Morgan"
+header = "Hi, I'm Elise Morgan. 👋"
+description = "I'm a technical writer based in Boulder, CO."
+keywords = [ "Portfolio", "technical writer", "documentation", "writer"]
+showHeaderOnHomepage = true
+twemoji = true
+
+[permalinks]
+  '/' = '/:slug/'
+  'projects' = '/:slug/'
+
+[Menu]
+[[Menu.Main]]
+name = "Book 15min Meeting"
+url =  "https://calendly.com/elise-morgan-ecm/15-20-minute-screen-chat"
+weight = 1
+
+[[Menu.Main]]
+name = "Projects"
+url = "/projects/"
+weight = 2
+
+[taxonomies]
+	tag = "tags"
+	category = "categories"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
