@@ -10,6 +10,6 @@ I created this user guide following a designated style template and a request to
 
 ---
 
-![Cover page of Salesforce User Guide. Last updated July 19, 2023.](https://drive.google.com/uc?id=1K_q7RXN4BqFIF-ch-mdQ_1aDSnmOld1B)
+![Cover page of Salesforce User Guide. Last updated July 19, 2023.](/assets/images/salesForce.png)
 
 ---
