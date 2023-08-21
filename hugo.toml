@@ -1,6 +1,6 @@
 baseURL = 'http://elisecmorgan.com/'
 languageCode = 'en-us'
-title = "Elise Morgan's Technical Writing Portoflio"
+title = "Elise Morgan's Technical Writing Portfolio"
 theme = "salinger"
 copyright = 'Elise Morgan'
 
