@@ -1,5 +1,5 @@
 ---
-title: "About Me"
+title: "Elise Morgan"
 ---
 I am a technical writer based in Boulder, CO. 
 
