@@ -1,7 +1,6 @@
 baseURL = 'http://elisecmorgan.com/'
 languageCode = 'en-us'
 title = "Elise Morgan's Technical Writing Portfolio"
-theme =
 copyright = 'Elise Morgan'
 
 [params]
@@ -26,3 +25,40 @@ weight = 1
 name = "Projects"
 url = "/projects/"
 weight = 2
+
+[taxonomies]
+	tag = "tags"
+	category = "categories"
+
+[module]
+[module.hugoVersion]
+extended = false
+min = "0.112.0"
+[[module.mounts]]
+source = "assets"
+target = "assets"
+[[module.mounts]]
+source = "hugo_stats.json"
+target = "assets/watching/hugo_stats.json"
+
+[build]
+writeStats = true
+[[build.cachebusters]]
+source = "assets/watching/hugo_stats\\.json"
+target = "styles\\.css"
+[[build.cachebusters]]
+source = "(postcss|tailwind)\\.config\\.js"
+target = "css"
+[[build.cachebusters]]
+source = "assets/.*\\.(js|ts|jsx|tsx)"
+target = "js"
+[[build.cachebusters]]
+source = "assets/.*\\.(.*)$"
+target = "$1"
+
+[markup]
+[markup.goldmark]
+[markup.goldmark.renderer]
+unsafe = true
+[markup.highlight]
+style = 'base16-snazzy'

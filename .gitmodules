@@ -1,1 +1,4 @@
 
+[submodule "themes/salinger"]
+	path = themes/salinger
+	url = https://github.com/jacksalici/salinger-theme.git
