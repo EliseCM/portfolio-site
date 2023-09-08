@@ -311,7 +311,8 @@ The SSL ceritifcate will give your URL the https:// in the beginning. If your do
    
    ![Screenshot of complete DNS records](/images/urlDestinations.png)
 
-**4. Enter your custom domain on GitHub Pages:**
+### 6. Enter your custom domain on GitHub Pages
+Enter your custom domain in your GitHub Page settings:
 
 ![Screenshot of action](/images/customDomain.png)
 
