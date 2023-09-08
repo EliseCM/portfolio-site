@@ -13,7 +13,7 @@ ShowToc = true
 
 Welcome to my website! I built this website using Hugo and I host it on GitHub Pages.
 
-I started this process with a URL and no clue what I was doing. This guide is for anyone who wants to create a simple website to showcase work, but doesn't know where to begin.
+I started this process with a URL and no clue what I was doing. This guide is for anyone who wants to create a simple website to showcase work but doesn't know where to begin.
 
 I hope that someone else with no technical experience can follow these steps to build their website and skip all the frustrating hours I spent figuring this out on my own. This may not be the process that makes the most sense to a tech pro, but I know it works.
 
