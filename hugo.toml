@@ -40,11 +40,11 @@ showtoc = false
 tocopen = false
 
   [params.assets]
-  favicon = "<link / abs url>"
-  favicon16x16 = "<link / abs url>"
-  favicon32x32 = "<link / abs url>"
-  apple_touch_icon = "<link / abs url>"
-  safari_pinned_tab = "<link / abs url>"
+  favicon = "</images/favicon.png"
+  favicon16x16 = "/images/favicon.png"
+  favicon32x32 = "/images/favicon.png"
+  apple_touch_icon = "/images/favicon.png"
+  safari_pinned_tab = "/images/favicon.png"
 
   [params.label]
   text = "Elise Morgan's Portfolio"
