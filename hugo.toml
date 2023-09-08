@@ -40,7 +40,7 @@ showtoc = false
 tocopen = false
 
   [params.assets]
-  favicon = "</images/favicon.png"
+  favicon = "/images/favicon.png"
   favicon16x16 = "/images/favicon.png"
   favicon32x32 = "/images/favicon.png"
   apple_touch_icon = "/images/favicon.png"
