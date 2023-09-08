@@ -1,5 +1,5 @@
 baseURL = "https://elisecmorgan.com/"
-title = "Elise Morgan's Technical Writing Portfolio"
+title = "Elise Morgan"
 paginate = 5
 theme = "PaperMod"
 languageCode = 'en-us'
