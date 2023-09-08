@@ -21,8 +21,8 @@ I hope that someone else with no technical experience can follow these steps to 
 
 ---
 
-### Building Your Site
-#### 1. Open Terminal
+## Building Your Site
+### 1. Open Terminal
    
    Search for Terminal:
 
@@ -32,10 +32,10 @@ I hope that someone else with no technical experience can follow these steps to 
    
    ![screenshot of open Termincal](/images/macTerminal.png)
 
-#### 2. Install Hugo
+### 2. Install Hugo
 [Follow Hugo installation instructions.](https://gohugo.io/installation/)
 
-#### 3. Install Git
+### 3. Install Git
 **1. Check that Git is installed on your computer:**
         
         git --version
@@ -47,7 +47,7 @@ If Git is installed, you will see a message displaying your current version:
 
 If not, [follow the Git installation instructions.](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
 
-#### 3. Choose Your Theme
+### 3. Choose Your Theme
     
 **1. Choose the look of your site from Hugo's [catalogue of themes](https://themes.gohugo.io).**
 
@@ -57,7 +57,7 @@ I used [PaperMod](https://themes.gohugo.io/themes/hugo-papermod/) on this site.
 
 Keep this GitHub page open for later.
 
-#### 4. Build Your Local Repository
+### 4. Build Your Local Repository
     >>This is a Terminal command<<
 > `[]`inside`command`snippets show where you will insert your unique value. Paste these lines into your terminal, but eliminate the`[]`after inserting your unique value.
    
@@ -73,7 +73,7 @@ Use something short for your directory name. I used portfolio.
 ![screenshot showing hugo error that says: Error: command error: Unable to locate config file or config directory. Perhaps you need to create a new site. Run `hugo help new` for details.](/images/hugoNoDirectoryError.png) 
 >That means you are not in your site's directory folder. Use the `cd` command to navigate to your directory.
 
-#### 5. Add Your Theme
+### 5. Add Your Theme
    **1. Initialize Git:**
    
         git init
@@ -88,10 +88,10 @@ Find the directory for your theme in the theme's GitHub ReadMe file. There will 
         echo "theme = '[theme name]'" >> hugo.toml
    **4. Each theme is unique and may require alternative or additional steps.**
 
-#### 6. [Download Visual Code Studio](https://code.visualstudio.com/download)
+### 6. [Download Visual Code Studio](https://code.visualstudio.com/download)
 This is the interface that I use to navigate my site directory and create content.
 
-#### 7. Set Up Your Site
+### 7. Set Up Your Site
 >This is where I struggled as someone who had no understanding of how these sites work. My breakthrough moment came when I realized that my theme included an example site with all its own files. This meant, I could mimic the example site files to successfully build my own. I recommend you do the same!
    
    **1. Open site directory in Visual Code Studio:**
@@ -113,25 +113,15 @@ This is the interface that I use to navigate my site directory and create conten
 Add additional elements to your *hugo.toml*, such as headers, by following your example site's *.toml* file.
 
 
-#### 8. Create Homepage Content
+### 8. Create Homepage Content
 In Visual Code Studio:
-   
-   **1. Create a New File the *content* folder within your directory. Name the file *_index.md*.**
 
-   **2. Add `title: ["Your Title"]` This is what appears on the browser tab of your website.**
+**Follow your theme's example site to determine how to setup your homepage content.**
 
-   **3. Seperate `title:` from the other text by entering `---` in the lines above and below `title:`.**
-
-   **4. Enter the body text you wish to have displayed on your homepage.**
-
-   **5. Save file and close.**
-
-See my _index.md file:
-
-![Screenshot of index file](/images/indexFile.png)
+Depending on your theme, you may need to create a file in your *content* folder titled _index.md to display content on your homepage. For other themes, the homepage content will be included on in the config file.
 
 
-#### 9. Create New Content Pages
+### 9. Create New Content Pages
 In Visual Code Studio:
 
    **1. Create a New Folder in the *content* folder within your directory. Name the folder how you want the heading to appear on your site:**
@@ -160,7 +150,7 @@ You will use Markdown to write all content on Hugo. Writing Markdown is similar 
    
    **5. Save the new file and close.**
 
-#### 10. Launch Hugo
+### 10. Launch Hugo
 **1. In the Terminal, enter the command:** 
     
         hugo server
@@ -173,9 +163,9 @@ You can continue to create and edit your site files, and preview your updated si
 
 ---
 
-### Publishing Your Site Online
+## Publishing Your Site Online
 
-#### 1. Push Site to GitHub
+### 1. Push Site to GitHub
 Follow these steps to host your site on GitHub Pages.
 
    **1. If you don't already have one - [sign up for a GitHub account.](https://github.com)**
@@ -215,7 +205,7 @@ Follow these steps to host your site on GitHub Pages.
 **10. Add your GitHub repo as your new remote origin:**
         
         git remote add origin [The Repo URL from GitHub]
-    ![Screenshot of GitHub command lines](/images/gitHubCode.png)
+   ![Screenshot of GitHub command lines](/images/gitHubCode.png)
 
 **11. Tell GitHub to push to your repo's Main branch:**
         
@@ -228,7 +218,7 @@ The -u command defines the remote origin (aka your GitHub server) to always be t
 **13.   Enter you GitHub username and password when prompted by Terminal:** 
     
 >Two things to be aware of:
-> * If you have two-factor authentication turned on for your GitHub account, your password will be invalid. See Step 13 below.
+> * If you have two-factor authentication turned on for your GitHub account, your password will be invalid. See Step 14 below.
 > * For security, the Terminal will not display what you enter for your password. So, it looks like your typing is not inputting. The password is there but it is hidden. Type or paste your password and press Enter.
 
 **14.   Create GitHub token to get around two-factor authentication block:**
@@ -251,7 +241,7 @@ The -u command defines the remote origin (aka your GitHub server) to always be t
 
 5. Immediately paste the token into the "Password" field when prompted by the Terminal.
 
-#### 2. Deploy Site on GitHub Pages
+### 2. Deploy Site on GitHub Pages
 
    **1.  Go to your repo on GitHub. It will be populated by all files from your site directory.**
    
@@ -272,7 +262,7 @@ You will see an action being deployed, it will likely still be in progress and b
    **5.  Go back to your repo's Settings > Pages. Click your site's GitHub generated URL to see your site online.**
 
 
-#### 3. Purchase Your Custom URL
+### 3. Purchase Your Custom URL
    **1. [Read GitHub's Custom Domain Recommendations.](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/about-custom-domains-and-github-pages)**
 
    **2. To find out if a URL (domain) is available, type your desired URL into a browser:**
@@ -292,7 +282,7 @@ Do not search this URL again until you have purchased it. Repeatedly searching f
 
 > I purchased my domain from Pair Domain. Therefore, my instructions for connecting your URL to your site will be shown on Pair Domain.
 
-#### 4. Add SSL Security Certificate to Domain
+### 4. Add SSL Security Certificate to Domain
 The SSL ceritifcate will give your URL the https:// in the beginning. If your domain does not have an SSL certificate, visitors will be warned that your site is not secure.
 
    **1. Go to your SSL management within your domain manager.**
@@ -301,7 +291,7 @@ The SSL ceritifcate will give your URL the https:// in the beginning. If your do
    
    ![Screenshot of action](/images/sslCertificate.png)
 
-#### 5. Add Custom DNS Records to Domain
+### 5. Add Custom DNS Records to Domain
    **1. Enable Custom DNS Records for your domain.**
 
    **2. Add the following A records exactly:**
@@ -326,4 +316,4 @@ The SSL ceritifcate will give your URL the https:// in the beginning. If your do
 
 ---
 
-### Now Visit Your New Site! 🎉🎉
+## Now Visit Your New Site! 🎉🎉
