@@ -15,7 +15,7 @@ minifyOutput = true
 
 [params]
 env = "production"
-title = "Elise Morgan"
+title = "Portfolio"
 description = "Elise Morgan's Technical Writing Portfolio"
 keywords = [ "Blog", "Portfolio", "PaperMod" ]
 author = "Elise Morgan"
@@ -27,15 +27,15 @@ ShowReadingTime = false
 ShowShareButtons = false
 ShowPostNavLinks = true
 ShowBreadCrumbs = true
-ShowCodeCopyButtons = false
+ShowCodeCopyButtons = true
 ShowWordCount = false
-ShowRssButtonInSectionTermList = true
+ShowRssButtonInSectionTermList = false
 UseHugoToc = true
 disableSpecial1stPost = false
 disableScrollToTop = false
 comments = false
 hidemeta = false
-hideSummary = false
+hideSummary = true
 showtoc = false
 tocopen = false
 
@@ -47,13 +47,13 @@ tocopen = false
   safari_pinned_tab = "<link / abs url>"
 
   [params.label]
-  text = "Elise Morgan"
+  text = "Portfolio"
   icon = "/apple-touch-icon.png"
   iconHeight = 35
 
   [params.profileMode]
-  enabled = false
-  title = "Elise Morgan"
+  enabled = true
+  title = "Portfolio"
   subtitle = "Tech Writing"
   imageUrl = "<img location>"
   imageWidth = 120
@@ -62,7 +62,7 @@ tocopen = false
 
     [[params.profileMode.buttons]]
     name = "Projects"
-    url = "projects"
+    url = "/projects"
 
   [params.homeInfoParams]
   Title = "Hi, I'm Elise Morgan. 👋"
