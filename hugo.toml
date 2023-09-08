@@ -1,65 +1,104 @@
-baseURL = 'http://elisecmorgan.com/'
-languageCode = 'en-us'
+baseURL = "https://elisecmorgan.com/"
 title = "Elise Morgan's Technical Writing Portfolio"
-theme = "Salinger"
-copyright = 'Elise Morgan'
+paginate = 5
+theme = "PaperMod"
+languageCode = 'en-us'
+enableRobotsTXT = true
+buildDrafts = false
+buildFuture = false
+buildExpired = false
+pygmentsUseClasses = true
+
+[minify]
+disableXML = true
+minifyOutput = true
 
 [params]
+env = "production"
+title = "Elise Morgan"
+description = "Elise Morgan's Technical Writing Portfolio"
+keywords = [ "Blog", "Portfolio", "PaperMod" ]
 author = "Elise Morgan"
-header = "Hi, I'm Elise Morgan. 👋"
-description = "I'm a technical writer based in Boulder, CO."
-keywords = [ "Portfolio", "technical writer", "documentation", "writer"]
-showHeaderOnHomepage = true
-twemoji = true
+images = [ "<link or path of image for opengraph, twitter-cards>" ]
+DateFormat = "January 2, 2006"
+defaultTheme = "auto"
+disableThemeToggle = true
+ShowReadingTime = false
+ShowShareButtons = false
+ShowPostNavLinks = true
+ShowBreadCrumbs = true
+ShowCodeCopyButtons = false
+ShowWordCount = false
+ShowRssButtonInSectionTermList = true
+UseHugoToc = true
+disableSpecial1stPost = false
+disableScrollToTop = false
+comments = false
+hidemeta = false
+hideSummary = false
+showtoc = false
+tocopen = false
 
-[permalinks]
-  '/' = '/:slug/'
-  'projects' = '/:slug/'
+  [params.assets]
+  favicon = "<link / abs url>"
+  favicon16x16 = "<link / abs url>"
+  favicon32x32 = "<link / abs url>"
+  apple_touch_icon = "<link / abs url>"
+  safari_pinned_tab = "<link / abs url>"
 
-[Menu]
-[[Menu.Main]]
-name = "Book 15min Meeting"
-url =  "https://calendly.com/elise-morgan-ecm/15-20-minute-screen-chat"
-weight = 1
+  [params.label]
+  text = "Elise Morgan"
+  icon = "/apple-touch-icon.png"
+  iconHeight = 35
 
-[[Menu.Main]]
+  [params.profileMode]
+  enabled = false
+  title = "Elise Morgan"
+  subtitle = "Tech Writing"
+  imageUrl = "<img location>"
+  imageWidth = 120
+  imageHeight = 120
+  imageTitle = "my image"
+
+    [[params.profileMode.buttons]]
+    name = "Projects"
+    url = "projects"
+
+  [params.homeInfoParams]
+  Title = "Hi, I'm Elise Morgan. 👋"
+  Content = "I am a technical writer based in Boulder, CO. You can reach me at elise.morgan.ecm@gmail.com."
+
+  [[params.socialIcons]]
+  name = "LinkedIn"
+  url = "https://www.linkedin.com/in/elise-morgan-chica/"
+
+
+  [params.cover]
+  hidden = true
+  hiddenInList = true
+  hiddenInSingle = true
+
+  [params.fuseOpts]
+  isCaseSensitive = false
+  shouldSort = true
+  location = 0
+  distance = 1_000
+  threshold = 0.4
+  minMatchCharLength = 0
+  keys = [ "title", "permalink", "summary", "content" ]
+
+[[menu.main]]
+identifier = "Projects"
 name = "Projects"
 url = "/projects/"
-weight = 2
+weight = 10
 
-[taxonomies]
-	tag = "tags"
-	category = "categories"
+[[menu.main]]
+identifier = "Book 15min Meeting"
+name = "Book 15min Meeting"
+url = "https://calendly.com/elise-morgan-ecm/15-20-minute-screen-chat"
+weight = 20
 
-[module]
-[module.hugoVersion]
-extended = false
-min = "0.112.0"
-[[module.mounts]]
-source = "assets"
-target = "assets"
-[[module.mounts]]
-source = "hugo_stats.json"
-target = "assets/watching/hugo_stats.json"
 
-[build]
-writeStats = true
-[[build.cachebusters]]
-source = "assets/watching/hugo_stats\\.json"
-target = "styles\\.css"
-[[build.cachebusters]]
-source = "(postcss|tailwind)\\.config\\.js"
-target = "css"
-[[build.cachebusters]]
-source = "assets/.*\\.(js|ts|jsx|tsx)"
-target = "js"
-[[build.cachebusters]]
-source = "assets/.*\\.(.*)$"
-target = "$1"
-
-[markup]
-[markup.goldmark]
-[markup.goldmark.renderer]
-unsafe = true
 [markup.highlight]
-style = 'base16-snazzy'
+noClasses = false

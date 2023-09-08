@@ -51,7 +51,7 @@ If not, [follow the Git installation instructions.](https://git-scm.com/book/en/
     
 **1. Choose the look of your site from Hugo's [catalogue of themes](https://themes.gohugo.io).**
 
-I used [Salinger](https://themes.gohugo.io/themes/salinger-theme/) on this site.
+I used [PaperMod](https://themes.gohugo.io/themes/hugo-papermod/) on this site.
 
 **2. Click Download to go to your theme's GitHub page.**
 
@@ -110,17 +110,8 @@ This is the interface that I use to navigate my site directory and create conten
     
 *hugo.toml* was created when you set up the Hugo site. This file defines basics, like language. It is where you create site headers and navigation menus.
 
-Add additional elements to your *hugo.toml*, such as headers, by following your example site's *.toml* file. 
-   
-See how my example site's config.toml compares to my hugo.toml:
+Add additional elements to your *hugo.toml*, such as headers, by following your example site's *.toml* file.
 
-The example site's config (partial):
-
-   ![Screenshot of example config.toml](/images/exSiteConfig.png)
-
-My site's hugo.toml (partial):
-  
-   ![Screenshot of hugo.toml file](/images/myHugoToml.png)
 
 #### 8. Create Homepage Content
 In Visual Code Studio:
@@ -160,10 +151,6 @@ In Visual Code Studio:
 `date = "[The date of posting]"`
 
 `description = "[Description of the post]"`
-
-`tags = ["[any tag you wish to describe the post]"]`
-
-`categories = ["[any category you wish to describe the post]"]`
 
 `+++`
 

@@ -1,3 +1,5 @@
-[submodule "themes/salinger"]
-	path = themes/salinger
-	url = https://github.com/jacksalici/salinger-theme.git
+
+
+[submodule "themes/PaperMod"]
+	path = themes/PaperMod
+	url = https://github.com/adityatelange/hugo-PaperMod.git
