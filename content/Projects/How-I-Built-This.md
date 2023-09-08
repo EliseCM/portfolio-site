@@ -2,7 +2,7 @@
 author = "Elise Morgan"
 title = "How-To: Build a Simple Website with Hugo and GitHub Pages"
 date = "2023-09-07"
-description = "How-To: Build a Simple Website with Hugo and GitHub Pages"
+description = "How I Built This Site"
 ShowToc = true
 +++
 
