@@ -48,8 +48,7 @@ tocopen = false
 
   [params.label]
   text = "Elise Morgan's Portfolio"
-  icon = "/images/favicon.png"
-  iconHeight = 35
+  
 
   [params.profileMode]
   enabled = true
