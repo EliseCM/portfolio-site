@@ -16,7 +16,7 @@ minifyOutput = true
 [params]
 env = "production"
 title = "Elise's Portfolio"
-description = "Elise Morgan's Technical Writing Portfolio"
+description = "Elise Morgan's Portfolio"
 keywords = [ "Blog", "Portfolio", "PaperMod" ]
 author = "Elise Morgan"
 images = [ "<link or path of image for opengraph, twitter-cards>" ]
@@ -47,7 +47,7 @@ tocopen = false
   safari_pinned_tab = "<link / abs url>"
 
   [params.label]
-  text = "Elise Morgan's Technical Writing Portfolio"
+  text = "Elise Morgan's Portfolio"
   icon = "/apple-touch-icon.png"
   iconHeight = 35
 
