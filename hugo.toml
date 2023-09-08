@@ -53,12 +53,9 @@ tocopen = false
 
   [params.profileMode]
   enabled = true
-  title = "Portfolio"
-  subtitle = "Tech Writing"
-  imageUrl = "<img location>"
-  imageWidth = 120
-  imageHeight = 120
-  imageTitle = "my image"
+  title = "Hi, I'm Elise Morgan. 👋"
+  subtitle = "I am a technical writer based in Boulder, CO. You can reach me at elise.morgan.ecm@gmail.com."
+  
 
     [[params.profileMode.buttons]]
     name = "Projects"
