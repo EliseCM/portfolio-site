@@ -61,6 +61,11 @@ tocopen = false
     name = "Projects"
     url = "/projects"
 
+    [[params.profileMode.buttons]]
+    name = "Book 15min Meeting"
+    url = "https://calendly.com/elise-morgan-ecm/15-20-minute-screen-chat"
+
+
   [params.homeInfoParams]
   Title = "Hi, I'm Elise Morgan. 👋"
   Content = "I am a technical writer based in Boulder, CO. You can reach me at elise.morgan.ecm@gmail.com."
@@ -83,18 +88,6 @@ tocopen = false
   threshold = 0.4
   minMatchCharLength = 0
   keys = [ "title", "permalink", "summary", "content" ]
-
-[[menu.main]]
-identifier = "Projects"
-name = "Projects"
-url = "/projects/"
-weight = 10
-
-[[menu.main]]
-identifier = "Book 15min Meeting"
-name = "Book 15min Meeting"
-url = "https://calendly.com/elise-morgan-ecm/15-20-minute-screen-chat"
-weight = 20
 
 
 [markup.highlight]
