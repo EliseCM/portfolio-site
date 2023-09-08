@@ -48,7 +48,7 @@ tocopen = false
 
   [params.label]
   text = "Elise Morgan's Portfolio"
-  icon = "/apple-touch-icon.png"
+  icon = "/images/favicon.png"
   iconHeight = 35
 
   [params.profileMode]
