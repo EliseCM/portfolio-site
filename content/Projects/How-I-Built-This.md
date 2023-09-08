@@ -6,7 +6,6 @@ description = "How I Built This Site"
 ShowToc = true
 +++
 
-## How I Built This
 ---
 #### By Someone Who Didn't Know What They Were Doing When They Started
 
