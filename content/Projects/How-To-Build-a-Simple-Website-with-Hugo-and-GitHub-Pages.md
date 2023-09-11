@@ -222,7 +222,7 @@ Follow these steps to host your site on GitHub Pages.
         git push -u origin main
 The -u command defines the remote origin (aka your GitHub server) to always be the "upstream" reference. Now, when you push future changes, they automatically go to your site repo.
 
-**12.   Enter you GitHub username and password when prompted by Terminal:** 
+**12.   Enter your GitHub username and password when prompted by Terminal:** 
     
 >Two things to be aware of:
 > * If you have two-factor authentication turned on for your GitHub account, your password will be invalid. See Step 14 below.
