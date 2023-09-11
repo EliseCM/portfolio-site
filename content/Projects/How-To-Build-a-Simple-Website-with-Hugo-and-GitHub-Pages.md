@@ -88,17 +88,17 @@ Find the directory for your theme in the theme's GitHub ReadMe file. There will 
         echo "theme = '[theme name]'" >> hugo.toml
    **4. Each theme is unique and may require alternative or additional steps.**
 
-### 6. [Download Visual Code Studio](https://code.visualstudio.com/download)
+### 6. [Download Visual Studio Code](https://code.visualstudio.com/download)
 This is the interface that I use to navigate my site directory and create content.
 
 ### 7. Set Up Your Site
 >This is where I struggled as someone who had no understanding of how these sites work. My breakthrough moment came when I realized that my theme included an example site with all its own files. This meant, I could mimic the example site files to successfully build my own. I recommend you do the same!
    
-   **1. Open site directory in Visual Code Studio:**
+   **1. Open site directory in Visual Studio Code:**
    
    ![Screenshot of action](/images/openVSCodeFile.png)
 
-   You can now see and you entire site directory in VS Code:
+   You can now see and you entire site directory in Visual Studio Code:
 
    ![Screenshot of File directory in VS Code](/images/VSCodeFileMap.png)
 
@@ -114,7 +114,7 @@ Add additional elements to your *hugo.toml*, such as headers, by following your 
 
 
 ### 8. Create Homepage Content
-In Visual Code Studio:
+In Visual Studio Code:
 
 **Follow your theme's example site to determine how to setup your homepage content.**
 
@@ -122,7 +122,7 @@ Depending on your theme, you may need to create a file in your *content* folder 
 
 
 ### 9. Create New Content Pages
-In Visual Code Studio:
+In Visual Studio Code:
 
    **1. Create a New Folder in the *content* folder within your directory. Name the folder how you want the heading to appear on your site:**
    
