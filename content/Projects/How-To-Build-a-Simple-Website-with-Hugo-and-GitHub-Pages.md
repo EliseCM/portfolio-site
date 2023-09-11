@@ -88,11 +88,23 @@ Find the directory for your theme in the theme's GitHub ReadMe file. There will 
         echo "theme = '[theme name]'" >> hugo.toml
    **4. Each theme is unique and may require alternative or additional steps.**
 
-### 6. [Download Visual Studio Code](https://code.visualstudio.com/download)
+### 6. Launch Hugo
+**1. In the Terminal, enter the command:** 
+    
+        hugo server
+
+> Troubleshooting: If Hugo says it cannot launch, be sure you navigated into your site directory with `cd [directory name]` before launching Hugo.    
+
+Hugo is now building your site on your local server. Run http://localhost:1313/ on your browser to see your site.
+
+You can continue to create and edit your site files, and preview your updated site on your local server. Hugo updates saved changes in real time.
+
+### 7. [Download Visual Studio Code](https://code.visualstudio.com/download)
 This is the interface that I use to navigate my site directory and create content.
 
-### 7. Set Up Your Site
->This is where I struggled as someone who had no understanding of how these sites work. My breakthrough moment came when I realized that my theme included an example site with all its own files. This meant, I could mimic the example site files to successfully build my own. I recommend you do the same!
+### 8. Set Up Your Site
+   > This is where I struggled as someone who had no understanding of how these sites work. My breakthrough moment came when I realized that my theme included an example site with all its own files. This meant, I could mimic the example site files to successfully build my own. I recommend you do the same!
+   > Depending on the theme you use, the following instructions may not be exactly correct. Look at your theme's example site (the url to view the example site will be on its GitHub page) and mess around to find the best way to build your site content.
    
    **1. Open site directory in Visual Studio Code:**
    
@@ -113,7 +125,7 @@ This is the interface that I use to navigate my site directory and create conten
 Add additional elements to your *hugo.toml*, such as headers, by following your example site's *.toml* file.
 
 
-### 8. Create Homepage Content
+### 9. Create Homepage Content
 In Visual Studio Code:
 
 **Follow your theme's example site to determine how to setup your homepage content.**
@@ -121,7 +133,7 @@ In Visual Studio Code:
 Depending on your theme, you may need to create a file in your *content* folder titled _index.md to display content on your homepage. For other themes, the homepage content will be included on in the config file.
 
 
-### 9. Create New Content Pages
+### 10. Create New Content Pages
 In Visual Studio Code:
 
    **1. Create a New Folder in the *content* folder within your directory. Name the folder how you want the heading to appear on your site:**
@@ -150,16 +162,7 @@ You will use Markdown to write all content on Hugo. Writing Markdown is similar 
    
    **5. Save the new file and close.**
 
-### 10. Launch Hugo
-**1. In the Terminal, enter the command:** 
-    
-        hugo server
-
-> Troubleshooting: If Hugo says it cannot launch, be sure you navigated into your site directory with `cd [directory name]` before launching Hugo.    
-
-Hugo is now building your site on your local server. Run http://localhost:1313/ on your browser to see your site.
-
-You can continue to create and edit your site files, and preview your updated site on your local server. Hugo updates saved changes in real time.
+View your Hugo site on your browser.
 
 ---
 
