@@ -4,6 +4,12 @@ title = "How-To: Build a Simple Website with Hugo and GitHub Pages"
 date = "2023-09-07"
 description = "How I Built This Site"
 ShowToc = true
+
+[cover]
+image = "/images/favicon.png"
+alt = "<How I Built This Site>"
+caption = "<How I Built This Site>"
+relative = false
 +++
 
 ---
