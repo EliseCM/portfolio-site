@@ -130,17 +130,17 @@ In Visual Studio Code:
 
 **Follow your theme's example site to determine how to setup your homepage content.**
 
-Depending on your theme, you may need to create a file in your *content* folder titled _index.md to display content on your homepage. For other themes, the homepage content will be included on in the config file.
+Depending on your theme, you may need to create a file in your *content* folder titled *_index.md* to display content on your homepage. For other themes, the homepage content will be included on in the config file.
 
 
 ### 10. Create New Content Pages
 In Visual Studio Code:
 
-   **1. Create a New Folder in the *content* folder within your directory. Name the folder how you want the heading to appear on your site:**
+   **1. Create a New Folder in the *content* folder within your directory:**
    
 ![Screenhot of new folder in content folder](/images/newContentFolder.png)
 
-   **2. Create New File in the new *[Projects]* folder to create a post.**
+   **2. Create New File *[myFile].md* in the new *[Projects]* folder to create a post.**
 
    **3. In your new Post, enter the following information at the top:**
    
@@ -196,35 +196,33 @@ Follow these steps to host your site on GitHub Pages.
 **6. Navigate to your site directory:**
 
         cd [portfolio]
-**7.  Initialize Git in your directory:**
-   
-        git init
-**8.  Add all files to Git index:**
+
+**7.  Add all files to Git index:**
         
         git add -A
-**9.  Commit added files with a message:**
+**8.  Commit added files with a message:**
         
         git commit -m 'Added all site files'
-**10. Add your GitHub repo as your new remote origin:**
+**9. Add your GitHub repo as your new remote origin:**
         
         git remote add origin [The Repo URL from GitHub]
    ![Screenshot of GitHub command lines](/images/gitHubCode.png)
 
-**11. Tell GitHub to push to your repo's Main branch:**
+**10. Tell GitHub to push to your repo's Main branch:**
         
         git branch -M main
-**12. Push to GitHub:**
+**11. Push to GitHub:**
         
         git push -u origin main
 The -u command defines the remote origin (aka your GitHub server) to always be the "upstream" reference. Now, when you push future changes, they automatically go to your site repo.
 
-**13.   Enter you GitHub username and password when prompted by Terminal:** 
+**12.   Enter you GitHub username and password when prompted by Terminal:** 
     
 >Two things to be aware of:
 > * If you have two-factor authentication turned on for your GitHub account, your password will be invalid. See Step 14 below.
 > * For security, the Terminal will not display what you enter for your password. So, it looks like your typing is not inputting. The password is there but it is hidden. Type or paste your password and press Enter.
 
-**14.   Create GitHub token to get around two-factor authentication block:**
+**13.   Create GitHub token to get around two-factor authentication block:**
         
 1. Go to your GitHub Settings:
    
