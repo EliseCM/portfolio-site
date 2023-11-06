@@ -1,4 +1,4 @@
 ---
-title: "Elise Morgan's Portfolio"
+title: "Elise Morgan"
 ---
 
