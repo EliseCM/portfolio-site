@@ -53,7 +53,7 @@ tocopen = false
   [params.profileMode]
   enabled = true
   title = "Hi, I'm Elise Morgan. 👋"
-  subtitle = "I am a UX writer, solutions analyst, and documentation specialist based in Boulder, CO. You can reach me at elise.morgan.ecm@gmail.com."
+  subtitle = "I am a UX writer and documentation specialist based in Boulder, CO. I currently work at TrackMy Solutions, where I design user interfaces, write UI/UX content, and manage both internal and external documentation. You can reach me at elise.morgan.ecm@gmail.com."
   
 
     [[params.profileMode.buttons]]
@@ -67,7 +67,7 @@ tocopen = false
 
   [params.homeInfoParams]
   Title = "Hi, I'm Elise Morgan. 👋"
-  Content = "I am a UX writer, solutions analyst, and documentation specialist based in Boulder, CO. You can reach me at elise.morgan.ecm@gmail.com."
+  Content = "I am a UX writer and documentation specialist based in Boulder, CO. I currently work at TrackMy Solutions, where I design user interfaces, write UI/UX content, and manage both internal and external documentation. You can reach me at elise.morgan.ecm@gmail.com."
 
   [[params.socialIcons]]
   name = "LinkedIn"
